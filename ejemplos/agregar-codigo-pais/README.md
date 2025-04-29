@@ -1,6 +1,6 @@
 # Agregar +57 al teléfono si no lo tiene
 
-** Este código no agrega +57 a la propiedad, solo la calcula **
+**Este código no agrega +57 a la propiedad, solo la calcula**
 
 ## De qué consiste el código?
 
