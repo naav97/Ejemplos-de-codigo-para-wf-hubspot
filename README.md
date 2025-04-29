@@ -6,7 +6,7 @@ Este repo tiene ejemplos de código para workflows de HubSpot.
 
 La idea es que busquen si existe el ejemplo que necesitan y si lo encuentran, lo pueden copiar y pegar.
 
-Cada ejemplo tiene un archivo codigo.js con el código y un README.md con una breve explicación del código
+Cada ejemplo tiene un archivo codigo.js con el código JavaScript, un archivo codigo.py con el codigo en Python y un README.md con una breve explicación del código
 
 ## Prerrequisitos
 

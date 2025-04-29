@@ -8,6 +8,10 @@
 ```JavaScript
 let phone = event.inputFields['phone'];
 ```
+
+```Python
+phone = event["inputFields"]["phone"]
+```
 2. Se valida que tiene actualmente la propiedad y en base a eso se calcula el valor con lo que falte:
 ```JavaScript
 if(!phone.startsWith("+")) {
@@ -19,6 +23,14 @@ if(!phone.startsWith("+")) {
     }
 }
 ```
+
+```Python
+if not phone.startswith("+"):
+  if not phone.startswith("57"):
+    phone = "+57" + phone
+  else:
+    phone = "+" + phone
+```
 3. Finalmente, retornamos el valor calculado para poder usarlo más adelante en el flujo:
 
 ```JavaScript
@@ -27,4 +39,12 @@ callback({
       phone: phone
     }
 });
+```
+
+```Python
+return {
+  "outputFields": {
+    "phone": phone
+  }
+}
 ```
